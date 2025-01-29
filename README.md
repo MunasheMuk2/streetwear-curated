@@ -11,3 +11,26 @@ Streetwear Curated is a web-based fashion guide. The site showcases the latest s
 
 * Gender- Males
 
+### User stories: 
+
+*First time visitors* 
+
+1. As a streetwear enthusiast I want an intuitive site layout and a navigation bar with key pages that will interest me 
+
+2. As a streetwear enthusiast I want to find out what streetwear curated offers  
+
+3. As a streetwear enthusiast I want to see streetwear curated ‘s social media following and engagement 
+
+*Returning visitors*
+
+1. As streetwear enthusiast, I want to see the latest fashion trend insights 
+
+2. As streetwear enthusiast, I want to see updated content
+
+*Frequent users* 
+
+1. As streetwear enthusiast I want to receive exclusive content on a regular basis 
+
+2. As streetwear enthusiast I want access to rare fashion that I can add to my collection 
+
+3. As a streetwear enthusiast, I want to collaborate/socialise with other fans, collectors and fashion forward individuals
