@@ -44,6 +44,7 @@ Streetwear Curated is a web-based fashion guide. The site showcases the latest s
 **Events Page** 
 **Subscribe Page**
 **Footer**
+
 **Social Media Icons**
 
 ### Manual Testing
@@ -51,16 +52,9 @@ Streetwear Curated is a web-based fashion guide. The site showcases the latest s
 **HTML Validator Testing**
 **CSS Validator Testing**
 **Compatibility**
-
 **Unfixed Bugs**
-
-
 **Solved Bugs**
-
-
 **Known Bugs**
-
-
 **Unfixed Bugs**
 
 ### Deployment
@@ -81,3 +75,4 @@ Reference where you got your content, media and extra help from
 Photo credit 
 
 
+### Future features 
