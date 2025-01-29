@@ -34,3 +34,50 @@ Streetwear Curated is a web-based fashion guide. The site showcases the latest s
 2. As a streetwear enthusiast I want access to rare fashion that I can add to my collection 
 
 3. As a streetwear enthusiast, I want to collaborate/socialise with other fans, collectors and fashion forward individuals
+
+### Features
+
+**Landing Page**
+**Navigation Bar**
+**Images**
+**Buttons or Links**
+**Events Page** 
+**Subscribe Page**
+**Footer**
+**Social Media Icons**
+
+### Manual Testing
+
+**HTML Validator Testing**
+**CSS Validator Testing**
+**Compatibility**
+
+**Unfixed Bugs**
+
+
+**Solved Bugs**
+
+
+**Known Bugs**
+
+
+**Unfixed Bugs**
+
+### Deployment
+
+### Credits 
+
+Tutorials
+Graphics
+Text content 
+Any other resources 
+
+Reference where you got your content, media and extra help from
+
+### Content 
+
+### Media 
+
+Photo credit 
+
+
