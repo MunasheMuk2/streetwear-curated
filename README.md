@@ -62,7 +62,11 @@ Streetwear Curated is a web-based fashion guide. The site showcases the latest s
 ### Credits 
 
 Tutorials
-Graphics
+
+*Graphics*
+
+Wireframes and logo created in canva 
+
 Text content 
 Any other resources 
 
