@@ -22,8 +22,12 @@
 
 body {
   font-family: var(--primary-font);
+  min-height:100vh
+  display:flex
+  flex-direction:column
 }
 
+/* Headings */
 h1,
 h2,
 h3,
@@ -31,10 +35,22 @@ h4,
 h5,
 h6 {
   font-family: var(--secondary-font);
-  color: red
 }
 
-p {
-  color: red
+/* Header section */
+header {
+  background-color: red;
+}
 
+/* Main section */
+
+main {
+  background-color:aqua
+  flex: 1 0 auto;
+}
+
+/* Footer section */
+
+footer {
+  background-color:green
 }
