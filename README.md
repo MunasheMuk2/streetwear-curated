@@ -68,7 +68,13 @@ Tutorials
 Wireframes and logo created in canva 
 
 Text content 
+
 Any other resources 
+
+fav icons - https://favicon.io/favicon-converter/
+fav icon logo - https://www.canva.com/
+fav icon circle cropper - https://crop-circle.imageonline.co/#google_vignette
+
 
 Reference where you got your content, media and extra help from
 
