@@ -43,6 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  /* padding:0.2em; */
 }
 
 header a {
@@ -87,6 +88,10 @@ footer {
   display: flex;
 }
 
+footer h6 {
+  padding: 0 1em;
+}
+
 #contact a {
   display: inline-block;
   margin: 1rem;
@@ -96,7 +101,7 @@ footer {
 }
 
 #contact p {
-  padding: 3px;
+  padding: 0 1em;
 }
 
 #subscribe {
