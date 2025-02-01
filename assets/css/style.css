@@ -43,7 +43,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  /* padding:0.2em; */
+  /* padding: 0; */
+  margin: 1em;
 }
 
 header a {
@@ -62,7 +63,7 @@ header li {
   background-color: #ffffff;
   width: 100%;
   left: 0;
-  padding: 0 1rem;
+  /* padding: 0; */
   display: none;
 }
 
@@ -72,6 +73,7 @@ header li {
 
 #menu {
   display: none;
+  /* padding: 0 1em; */
 }
 
 /* Main section */
@@ -101,15 +103,16 @@ footer h6 {
 }
 
 #contact p {
-  padding: 0 1em;
+  padding: 1em;
 }
 
 #subscribe {
-  padding: 2rem;
+  /* padding: 2rem; */
+  margin: 1em;
 }
 
 #subscribe p {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 2rem;
 }
 
