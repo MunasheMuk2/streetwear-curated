@@ -50,6 +50,11 @@ header li {
   list-style-type: none;
 }
 
+#nav{
+  display:flex
+  justify-content: flex-end
+}
+
 #nav-list {
   justify-content: space-between;
   position: absolute;
