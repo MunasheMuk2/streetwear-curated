@@ -22,9 +22,9 @@
 
 body {
   font-family: var(--primary-font);
-  min-height:100vh
-  display:flex
-  flex-direction:column
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Headings */
@@ -39,18 +39,40 @@ h6 {
 
 /* Header section */
 header {
-  background-color: red;
+  background-color: #ffffff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header li {
+  list-style-type: none;
+}
+
+#nav-list {
+  justify-content: space-between;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  display: none;
+}
+
+#menu:checked ~ #nav-list {
+  display: block;
 }
 
 /* Main section */
 
 main {
-  background-color:aqua
+  background-color: aqua;
   flex: 1 0 auto;
 }
 
 /* Footer section */
 
 footer {
-  background-color:green
+  background-color: green;
 }
