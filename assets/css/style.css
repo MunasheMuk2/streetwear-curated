@@ -84,6 +84,7 @@ main {
 
 footer {
   background-color: #ffffff;
+  display: flex;
 }
 
 #contact a {
@@ -91,8 +92,22 @@ footer {
   margin: 1rem;
   color: var(--color-primary);
   float: left;
+  padding: 0;
 }
 
 #contact p {
   padding: 3px;
+}
+
+#subscribe {
+  padding: 2rem;
+}
+
+#subscribe p {
+  font-size: 10px;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: var(--color-tertiary) !important;
 }
