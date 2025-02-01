@@ -63,6 +63,11 @@ Streetwear Curated is a web-based fashion guide. The site showcases the latest s
 
 Tutorials
 
+Code
+
+Drop down navigation: https://www.understandingcode.com/drop-down-navigation-bones/  
+
+
 *Graphics*
 
 Wireframes and logo created in canva 
