@@ -83,5 +83,16 @@ main {
 /* Footer section */
 
 footer {
-  background-color: green;
+  background-color: #ffffff;
+}
+
+#contact a {
+  display: inline-block;
+  margin: 1rem;
+  color: var(--color-primary);
+  float: left;
+}
+
+#contact p {
+  padding: 3px;
 }
