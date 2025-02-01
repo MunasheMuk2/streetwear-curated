@@ -40,19 +40,19 @@ h6 {
 /* Header section */
 header {
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
   text-decoration: none;
+  color: var(--primary-font);
+  font-family: var(--secondary-font);
 }
 
 header li {
   list-style-type: none;
-}
-
-#nav{
-  display:flex
-  justify-content: flex-end
 }
 
 #nav-list {
@@ -67,6 +67,10 @@ header li {
 
 #menu:checked ~ #nav-list {
   display: block;
+}
+
+#menu {
+  display: none;
 }
 
 /* Main section */
