@@ -109,7 +109,7 @@ main {
 footer {
   background-color: #ffffff;
   display: flex;
-  border-top: 2px solid #000;
+  border-top: 2px solid transparent;
 }
 
 footer h6 {
