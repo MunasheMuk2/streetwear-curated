@@ -122,3 +122,40 @@ footer h6 {
 .btn {
   background-color: var(--color-tertiary) !important;
 }
+
+/* Media queries */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* Header */
+
+  nav {
+    display: flex;
+  }
+
+  #nav-list {
+    display: block;
+    position: relative;
+    padding:1rem;
+    display:flex; */ Puts the nav list into a row */
+    
+  }
+
+  nav li {
+    padding:1rem; */ space between nav list */
+  }
+
+  #menu-bars {
+    display: none; */ make the nav toggle bars disapper */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
+}
