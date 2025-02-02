@@ -65,7 +65,6 @@ header li {
   background-color: #ffffff;
   width: 100%;
   left: 0;
-  /* padding: 0; */
   display: none;
 }
 
@@ -75,7 +74,6 @@ header li {
 
 #menu {
   display: none;
-  /* padding: 0 1em; */
 }
 
 /* Main section */
@@ -148,6 +146,31 @@ footer h6 {
   #menu-bars {
     display: none; */ make the nav toggle bars disapper */
   }
+
+
+
+/* Footer */
+
+#subscribe {
+  position: absolute;
+  right: 0;
+ 
+}
+
+#contact {
+  display:flex;
+  margin-bottom: 4rem;
+}
+
+footer h6 {
+  padding: 1.2rem
+  
+}
+
+footer p {
+  
+}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
