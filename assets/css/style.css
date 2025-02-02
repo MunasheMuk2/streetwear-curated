@@ -76,6 +76,10 @@ header li {
   display: none;
 }
 
+nav{
+  padding:1rem;
+}
+
 /* Main section */
 
 main {
