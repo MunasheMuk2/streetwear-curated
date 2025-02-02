@@ -149,7 +149,9 @@ footer h6 {
     display: none !important; */ make the nav toggle bars disapper */
   }
 
-
+  #sub {
+    margin-top:0.5rem !important;
+   }
 
 /* Footer */
 
@@ -159,9 +161,6 @@ footer h6 {
  
 }
 
-#sub {
- margin-top:0.5rem !important;
-}
 
 #contact {
   display:flex;
