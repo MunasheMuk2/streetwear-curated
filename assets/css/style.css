@@ -27,6 +27,17 @@ body {
   flex-direction: column;
 }
 
+/* Buttons */
+
+.btn {
+  background-color: var(--color-tertiary) !important;
+}
+
+.btn:hover {
+  color:#000 !important;
+
+}
+
 /* Headings */
 h1,
 h2,
@@ -80,6 +91,12 @@ nav{
   padding:1rem;
 }
 
+.active:hover {
+  background-color:#d10f0f;
+  color:#ffffff;
+
+}
+
 /* Main section */
 
 main {
@@ -119,10 +136,6 @@ footer h6 {
 #subscribe p {
   font-size: 12px;
   margin-top: 2rem;
-}
-
-.btn {
-  background-color: var(--color-tertiary) !important;
 }
 
 /* Media queries */
