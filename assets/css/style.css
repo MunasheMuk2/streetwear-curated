@@ -159,6 +159,10 @@ footer h6 {
  
 }
 
+#sub {
+ margin-top:0.5rem !important;
+}
+
 #contact {
   display:flex;
   margin-bottom: 4rem;
