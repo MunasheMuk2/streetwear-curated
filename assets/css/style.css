@@ -20,6 +20,10 @@
 
 /* General styles */
 
+html {
+  width: 100vw;
+}
+
 body {
   font-family: var(--primary-font);
   min-height: 100vh;
@@ -93,9 +97,10 @@ header li {
 
 }
 
-nav {
-  margin-right:1rem;
-}
+/* nav {
+  margin:1rem;
+} */
+
 /* Main section */
 
 main {
@@ -171,10 +176,10 @@ footer h6 {
 
 /* Footer */
 
-#subscribe {
+ #subscribe {
   position: absolute;
   right: 0;
- 
+  
 }
 
 
