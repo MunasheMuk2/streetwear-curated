@@ -20,10 +20,6 @@
 
 /* General styles */
 
-html {
-  width: 100vw;
-}
-
 body {
   font-family: var(--primary-font);
   min-height: 100vh;
@@ -58,8 +54,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  /* padding: 0; */
-  /* margin: em; */
 }
 
 header a {
@@ -73,6 +67,10 @@ header li {
 }
 
 /* Toggel navigation */
+
+nav {
+  margin: 1rem;
+}
 
 #nav-list {
   justify-content: space-between;
@@ -97,14 +95,11 @@ header li {
 
 }
 
-/* nav {
-  margin:1rem;
-} */
 
 /* Main section */
 
 main {
-  background-color: var (--color-secondary);
+  background-color:var(--color-secondary);
   flex: 1 0 auto;
 }
 
@@ -141,6 +136,7 @@ footer h6 {
   font-size: 12px;
   margin-top: 2rem;
 }
+
 
 /* Media queries */
 
@@ -193,9 +189,6 @@ footer h6 {
   
 }
 
-footer p {
-  
-}
 
 }
 
