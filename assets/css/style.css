@@ -87,20 +87,19 @@ header li {
   display: none;
 }
 
-nav{
-  padding:1rem;
-}
-
 .active:hover {
   background-color:#d10f0f;
   color:#ffffff;
 
 }
 
+nav {
+  margin-right:1rem;
+}
 /* Main section */
 
 main {
-  background-color: aqua;
+  background-color: var (--color-secondary);
   flex: 1 0 auto;
 }
 
@@ -109,7 +108,7 @@ main {
 footer {
   background-color: #ffffff;
   display: flex;
-  border-top: 2px solid transparent;
+  border-top: 1.7px solid #000;
 }
 
 footer h6 {
