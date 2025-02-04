@@ -99,8 +99,15 @@ nav {
 /* Main section */
 
 main {
+  
   background-color:var(--color-secondary);
   flex: 1 0 auto;
+ 
+}
+
+.first-col {
+  Text-align:center;
+  font-size:14px
 }
 
 /* Footer section */
@@ -137,6 +144,10 @@ footer h6 {
   margin-top: 2rem;
 }
 
+.column {
+  border: 1px solid #000;
+  min-height: 4rem;
+}
 
 /* Media queries */
 
