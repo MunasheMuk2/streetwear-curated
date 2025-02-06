@@ -70,6 +70,7 @@ header li {
 
 nav {
   margin: 1rem;
+  
 }
 
 #nav-list {
@@ -102,12 +103,28 @@ main {
   
   background-color:var(--color-secondary);
   flex: 1 0 auto;
+  margin-top:1rem;
  
 }
 
 .first-col {
   Text-align:center;
-  font-size:14px
+  font-size:14px;
+  /* width:60% */
+}
+
+.card {
+  margin:1rem;
+  border: none !important;
+}
+
+.featured-header {
+  font-size:25px;
+  text-align:center
+}
+
+.featured-paragraph {
+    text-align:center
 }
 
 /* Footer section */
@@ -180,6 +197,10 @@ footer h6 {
   #sub {
     margin-top:0.5rem !important;
    }
+
+   /* Main */
+
+   
 
 /* Footer */
 
