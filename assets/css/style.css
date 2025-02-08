@@ -107,6 +107,14 @@ main {
  
 }
 
+.first-section {
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  
+}
+
 .first-col {
   Text-align:center;
   font-size:14px;
@@ -200,8 +208,47 @@ footer h6 {
 
    /* Main */
 
-   
+   .first-col {
+    font-size:22px
+   }
 
+   .main {
+    display:flex !important;
+    
+   }
+
+   .first-section p{
+    float:right;
+    padding: 10px 10px;
+    font-size:15px;
+    text-wrap-style:auto ;
+   }
+
+   .first-section img {
+    width:450px;
+    height:550px;
+   }
+
+
+
+   .second-section {
+    display:flex !important;
+    justify-content:space-evenly;
+    margin-top:2rem !important;
+   }
+
+   .featured-header{
+    text-align: center;
+   }
+
+   .main-header {
+    margin-left:rem;
+   }
+
+  
+
+
+ 
 /* Footer */
 
  #subscribe {
