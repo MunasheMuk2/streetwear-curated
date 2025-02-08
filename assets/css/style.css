@@ -107,6 +107,14 @@ main {
  
 }
 
+section {
+
+margin:auto; /* Centers main content but does not affect content on bigger screens */
+
+  
+
+}
+
  .first-section {
   margin-left:1rem;
     margin-right:1rem;
@@ -117,20 +125,22 @@ main {
 
 .main-header{
    text-align:center ;
+   margin-top:1rem
    
 }
 
-.featured-paragraph {
+.main-paragraph {
    text-align:center;
-   margin-left:2rem
+
 }
 
-/* .second-section {
-  /* display: flex; */
-  align-content:center;
-  justify-content:center;
+.second-header {
+  text-align:center;
+  margin-top:1rem
 
-} */
+}
+
+
 
 .first-col {
   Text-align:center;
@@ -230,7 +240,10 @@ footer h6 {
    .main {
     display:flex !important;
     
+    
    }
+
+  
 
    .first-col {
     font-size:22px
@@ -303,6 +316,29 @@ footer h6 {
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 375px) {...}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 350px) {
+
+
+  .second-header {
+    margin:auto;
+    
+  }
+
+
+  section {
+    
+  width:80%;
+ 
+  
+  }
+
+section .jordans {
+  width:80%
+}
+  
+
+
+
+}
