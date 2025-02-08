@@ -91,3 +91,15 @@ _Photo credit_
 Images sourced from : https://unsplash.com/
 
 ### Future features
+
+### Solved bugs
+
+Boostrap cards
+
+Encountered issues after using bootstrap cards for main content on homepage as initially the cards had image first and then header and paragraph but switched this with header and paragraph first and image second for the first card but this caused issues with re-arranging the paragraph to float to the write on bigger screens to match my wireframes
+
+Also added an extra header on top of the 2nd card and this made it difficult to apply Css for bigger screens so took the header out of the bootstrap card
+
+display flex
+
+Using display flex to center content on small screen devices was affecting bigger screens so used margin auto instead
