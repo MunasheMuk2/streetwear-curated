@@ -107,6 +107,19 @@ main {
  
 }
 
+.about-us {
+  margin-top:2rem;
+  margin-bottom:
+
+}
+
+/* Centering subscribe button  */
+#sub {
+  display: block;
+  margin: auto;
+  width:6rem;
+}
+
 section {
 
 margin:auto; /* Centers main content but does not affect content on bigger screens */
@@ -123,20 +136,26 @@ margin:auto; /* Centers main content but does not affect content on bigger scree
   
 } 
 
+
+
 .main-header{
    text-align:center ;
-   margin-top:1rem
+   margin-top:2rem;
+   font-size:18px;
    
 }
 
 .main-paragraph {
    text-align:center;
+   font-size:13px;
 
 }
 
+
 .second-header {
   text-align:center;
-  margin-top:1rem
+  margin-top:1rem;
+  font-size:25px
 
 }
 
@@ -202,7 +221,39 @@ footer h6 {
   min-height: 4rem;
 }
 
+
 /* Media queries */
+
+
+/* Small devices (portrait tablets and large phones, 350px and up) */
+@media only screen and (min-width: 350px) {
+
+
+  .second-header {
+    margin:auto;
+    
+  }
+
+
+  section {
+    
+  width:90%;
+ 
+  
+  }
+
+  /* Code from W3schools.com to center the first image ( Centers the image horizontally )- added margin-bottom and changed width */
+
+.first-section {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem
+}
+  
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -243,8 +294,6 @@ footer h6 {
     
    }
 
-  
-
    .first-col {
     font-size:22px
    }
@@ -268,8 +317,9 @@ footer h6 {
 
    .main-header {
     text-align:center;
-    margin-top: 1rem;
-    margin-bottom:2rem
+    margin-top: 3rem;
+    margin-bottom:2rem;
+    font-size:30px
    } 
 
    .main-paragraph {
@@ -315,30 +365,49 @@ footer h6 {
 
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 350px) {
+  .about-us {
+    margin-top:25px;
 
+  }
+
+  #sub {
+    width:7rem;
+    height:2.5rem;
+  }
+
+  #first-header{
+    font-size:35px;
+    margin-bottom:2rem
+  }
+
+
+ .first-section {
+  margin-right: 7rem;
+ 
+  }
 
   .second-header {
-    margin:auto;
-    
+    padding-top:4rem;
+    font-size:35px
   }
 
-
-  section {
-    
-  width:80%;
- 
-  
+  .main-header {
+    font-size:35px
   }
 
-section .jordans {
-  width:80%
-}
-  
+  .main-paragraph {
+    width:25%;
+    margin-right:700px;
+    margin-top:6rem;
+    font-size:32px
+  }
 
 
 
 }
+
+/* End of media queries */
