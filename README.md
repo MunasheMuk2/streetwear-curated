@@ -100,6 +100,8 @@ Encountered issues after using bootstrap cards for main content on homepage as i
 
 Also added an extra header on top of the 2nd card and this made it difficult to apply Css for bigger screens so took the header out of the bootstrap card
 
+The first image and text also needed to be separated from all the other boostrap cards so the text could float on the right side of the image
+
 display flex
 
 Using display flex to center content on small screen devices was affecting bigger screens so used margin auto instead
