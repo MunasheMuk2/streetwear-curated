@@ -109,3 +109,7 @@ Using display flex to center content on small screen devices was affecting bigge
 text
 
 Had to add absolute position in CSS to text I made float on the right on the first image as the text was going on top of image on larger screens
+
+Subscibe success page
+
+Had an issue centering the 'return to home' button for the sucess page with margin auto so ended up putting the button in a div and using text align - center
