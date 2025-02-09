@@ -222,11 +222,40 @@ footer h6 {
 }
 
 
+/* Events Page  */
+
+form {
+  width:80%;
+  margin-left: 20px;
+
+
+}
+
+main h2 {
+  margin-left:20px
+}
+
+main p {
+  margin-left:20px
+}
+
+.email {
+  width: 100px; 
+}
+
+.submit {
+  margin-top:16px;
+  margin-bottom:16px;
+ 
+ 
+}
+
 /* Media queries */
 
 
 /* Small devices (portrait tablets and large phones, 350px and up) */
 @media only screen and (min-width: 350px) {
+
 
 
   .second-header {
@@ -304,11 +333,7 @@ footer h6 {
     font-size:15px;
    }
 
-   .first-section img {
-    width:450px;
-    height:550px;
-   }
-
+   
 
    .featured-header{
     text-align: center;

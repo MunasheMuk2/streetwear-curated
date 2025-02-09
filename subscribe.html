@@ -46,7 +46,8 @@
         <li> <a href="index.html"> Home </a> </li>
         <li> <a href="rarefinds.html"> Rare finds </a> </li>
         <li> <a href="events.html"> Events </a> </li>
-       <a href="subscribe.html" class="active"> <button type="button" class="btn btn-danger" id="sub" >Subscribe</button>
+        <a href="subscribe.html" class="active"> <button type="button" class="btn btn-danger"
+            id="sub">Subscribe</button>
       </ul> </a>
 
     </nav>
@@ -58,12 +59,58 @@
   <!-- Main  -->
   <main>
 
-    <h2> <strong>Subscribe to our newsletter </strong></h2>
-    <p> Keep up to date with the latest streetwear releases and new rare finds</p>
+    <h2 class="newsletter-header"> <strong>Subscribe to our newsletter </strong></h2>
+    <p class =newsletter-paragraph> Keep up to date with the latest streetwear releases and new rare finds</p>
 
-  
+    <form class="row g-3">
 
-   
+      <p>Full Name</p>
+
+      <div class="row">
+        <div class="col-11">
+
+          <input style='width: 300px' type="text" class="form-control" id="name" aria-label="First name" required> <br>
+
+
+        </div>
+
+        <div class="mb-3 email">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input style='width: 300px' type="email" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp" required>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col">
+
+            <label for="inputState" class="form-label">Main Interest</label>
+            <select style='width: 300px' id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Rare finds</option>
+              <option>Latest trends</option>
+              <option>Events</option>
+            </select>
+          </div>
+
+
+
+          <div class="col-12">
+            <button class="btn btn-danger submit" type="submit">Submit</button>
+          </div>
+
+
+    </form>
+
+
+
+
+
+
+
+
+
   </main>
 
   <!-- Footer -->
@@ -79,11 +126,11 @@
       <h6> <strong>Follow Us:</strong> </h6>
 
       <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our facebook page (opens in a new tab)"><i
-            class="fa-brands fa-facebook"></i> </a>
-        <a href="https://www.instagram.com/" target="_blank"
-          aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i> </a>
-        <a href="https://x.com/" target="_blank" aria-label="Visit our X page (opens in a new tab)"><i
-            class="fa-brands fa-x-twitter"></i> </a>
+          class="fa-brands fa-facebook"></i> </a>
+      <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our instagram page (opens in a new tab)"><i
+          class="fa-brands fa-instagram"></i> </a>
+      <a href="https://x.com/" target="_blank" aria-label="Visit our X page (opens in a new tab)"><i
+          class="fa-brands fa-x-twitter"></i> </a>
 
     </div>
 
@@ -92,8 +139,8 @@
     <div id="subscribe">
 
       <a href="subscribe.html"> <button type="button" class="btn btn-danger">Subscribe</button>
-      </ul> </a>
-      <p> © 2025  Streetwear Curated</p>
+        </ul> </a>
+      <p> © 2025 Streetwear Curated</p>
 
     </div>
 
