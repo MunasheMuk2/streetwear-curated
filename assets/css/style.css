@@ -493,9 +493,17 @@ footer h6 {
 
   .newsletter {
     margin: auto;
-    margin-top:80px;
+   
     width:25%;
     
+  }
+
+  .newsletter-header {
+    font-size:40px
+  }
+
+  .newsletter-paragraph{
+    font-size:20px
   }
 
   /* subscibe success page */
