@@ -419,6 +419,12 @@ footer h6 {
   
 }
 
+/* Subscribe page */
+
+.newsletter {
+  margin-left:150px;
+  margin-top:80px
+}
 
 /* Success page */
 
@@ -483,7 +489,17 @@ footer h6 {
   
   }
 
+  /* Subscribe page */
+
+  .newsletter {
+    margin: auto;
+    margin-top:80px;
+    width:25%;
+    
+  }
+
   /* subscibe success page */
+
 
   .sucess-header{
     font-size:70px;
