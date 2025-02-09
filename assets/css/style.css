@@ -268,14 +268,6 @@ footer h6 {
 }
 
 
-/* Events page */
-
-
-
-
-
-
-
 /* Media queries */
 
 
@@ -437,7 +429,7 @@ footer h6 {
     font-size: 18px
   }
 
-  /* Events page */
+  /* Events/rare finds page */
 
   /* Flex row and row reverse allows image and text to be next to each other on the left and the right */
 
@@ -565,7 +557,7 @@ footer h6 {
     margin-top: 25px;
   }
 
-   /* Events page */
+  /* Events/rare finds page */
 
 .events-main {
   width:80%;
