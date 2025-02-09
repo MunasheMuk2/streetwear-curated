@@ -105,3 +105,7 @@ The first image and text also needed to be separated from all the other boostrap
 display flex
 
 Using display flex to center content on small screen devices was affecting bigger screens so used margin auto instead
+
+text
+
+Had to add absolute position in CSS to text I made float on the right on the first image as the text was going on top of image on larger screens
