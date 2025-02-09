@@ -29,11 +29,11 @@ body {
 
 /* Buttons */
 
-.btn {
+.red-button {
   background-color: var(--color-tertiary) !important;
 }
 
-.btn:hover {
+.red-button:hover {
   color:#000 !important;
 
 }
@@ -222,20 +222,22 @@ footer h6 {
 }
 
 
-/* Events Page  */
+/* Subscribe Page  */
 
-form {
-  width:80%;
-  margin-left: 20px;
+
+
+#details {
+  /* width:80%; */
+  margin-left: 15px;
 
 
 }
 
-main h2 {
+.newsletter-header {
   margin-left:20px
 }
 
-main p {
+.newsletter-paragraph {
   margin-left:20px
 }
 
@@ -246,9 +248,31 @@ main p {
 .submit {
   margin-top:16px;
   margin-bottom:16px;
- 
+
  
 }
+
+
+/* Success page */
+
+.sucess-header{
+text-align:center;
+font-size:35px;
+margin-top:70px
+}
+
+.sucess-paragraph {
+text-align:center;
+}
+
+/* sucess button */
+
+#return {
+ text-align:center;  /*Centers button on all screen sizes */
+ 
+}
+  
+
 
 /* Media queries */
 
@@ -280,6 +304,14 @@ main p {
   margin-right: auto;
   margin-bottom: 1rem
 }
+
+/* sucess page button */
+
+.home {
+  vertical-align: middle;
+ 
+  
+} 
   
 
 }
@@ -388,6 +420,20 @@ footer h6 {
 }
 
 
+/* Success page */
+
+.sucess-header{
+  
+  margin-top:150px
+  }
+  
+  .sucess-paragraph {
+    font-size:18px
+  
+  }
+
+ 
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -437,6 +483,23 @@ footer h6 {
   
   }
 
+  /* subscibe success page */
+
+  .sucess-header{
+    font-size:70px;
+    margin-top:70px
+    }
+    
+    .sucess-paragraph {
+      font-size:30px;
+    }
+
+     /* Success button */
+
+  .home {
+    height:50px;
+    margin-top:25px;
+    }
 
 
 }
