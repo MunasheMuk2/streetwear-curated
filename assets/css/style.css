@@ -11,9 +11,12 @@
 /* CSS variables */
 
 :root {
-  --color-primary: #000; /* black */
-  --color-secondary: #ffffff; /* white */
-  --color-tertiary: #d10f0f; /* red */
+  --color-primary: #000;
+  /* black */
+  --color-secondary: #ffffff;
+  /* white */
+  --color-tertiary: #d10f0f;
+  /* red */
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Public Sans", sans-serif;
 }
@@ -34,7 +37,7 @@ body {
 }
 
 .red-button:hover {
-  color:#000 !important;
+  color: #000 !important;
 
 }
 
@@ -70,7 +73,7 @@ header li {
 
 nav {
   margin: 1rem;
-  
+
 }
 
 #nav-list {
@@ -82,7 +85,7 @@ nav {
   display: none;
 }
 
-#menu:checked ~ #nav-list {
+#menu:checked~#nav-list {
   display: block;
 }
 
@@ -91,8 +94,8 @@ nav {
 }
 
 .active:hover {
-  background-color:#d10f0f;
-  color:#ffffff;
+  background-color: #d10f0f;
+  color: #ffffff;
 
 }
 
@@ -100,15 +103,15 @@ nav {
 /* Main section */
 
 main {
-  
-  background-color:var(--color-secondary);
+
+  background-color: var(--color-secondary);
   flex: 1 0 auto;
-  margin-top:1rem;
- 
+  margin-top: 1rem;
+
 }
 
 .about-us {
-  margin-top:2rem;
+  margin-top: 2rem;
   margin-bottom:
 
 }
@@ -117,69 +120,63 @@ main {
 #sub {
   display: block;
   margin: auto;
-  width:6rem;
+  width: 6rem;
 }
 
 section {
 
-margin:auto; /* Centers main content but does not affect content on bigger screens */
-
-  
+  margin: auto;
+  /* Centers main content but does not affect content on bigger screens */
 
 }
 
- .first-section {
-  margin-left:1rem;
-  margin-right:1rem;
-  width:80%;
-  
-  
-} 
+.first-section {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 80%;
 
 
+}
 
-.main-header{
-   text-align:center ;
-   margin-top:2rem;
-   font-size:18px;
-   
+.main-header {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 18px;
+
 }
 
 .main-paragraph {
-   text-align:center;
-   font-size:13px;
+  text-align: center;
+  font-size: 13px;
 
 }
 
 
 .second-header {
-  text-align:center;
-  margin-top:1rem;
-  font-size:25px
-
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 25px
 }
-
 
 
 .first-col {
-  Text-align:center;
-  font-size:14px;
-  /* width:60% */
+  Text-align: center;
+  font-size: 14px;
 }
 
 .card {
-  margin:1rem;
+  margin: 1rem;
   border: none !important;
 }
 
 .featured-header {
-  font-size:25px;
-  text-align:center;
+  font-size: 25px;
+  text-align: center;
 
 }
 
 .featured-paragraph {
-    text-align:center
+  text-align: center
 }
 
 /* Footer section */
@@ -207,7 +204,6 @@ footer h6 {
 }
 
 #subscribe {
-  /* padding: 2rem; */
   margin: 1em;
 }
 
@@ -227,51 +223,50 @@ footer h6 {
 
 
 #details {
-  /* width:80%; */
   margin-left: 15px;
 
 
 }
 
 .newsletter-header {
-  margin-left:20px
+  margin-left: 20px
 }
 
 .newsletter-paragraph {
-  margin-left:20px
+  margin-left: 20px
 }
 
 .email {
-  width: 100px; 
+  width: 100px;
 }
 
 .submit {
-  margin-top:16px;
-  margin-bottom:16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 
- 
+
 }
-
 
 /* Success page */
 
-.sucess-header{
-text-align:center;
-font-size:35px;
-margin-top:70px
+.sucess-header {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 70px
 }
 
 .sucess-paragraph {
-text-align:center;
+  text-align: center;
 }
 
 /* sucess button */
 
 #return {
- text-align:center;  /*Centers button on all screen sizes */
- 
+  text-align: center;
+  /*Centers button on all screen sizes */
+
 }
-  
+
 
 
 /* Media queries */
@@ -283,36 +278,34 @@ text-align:center;
 
 
   .second-header {
-    margin:auto;
-    
+    margin: auto;
+
   }
 
 
   section {
-    
-  width:90%;
- 
-  
+
+    width: 90%;
+
   }
 
   /* Code from W3schools.com to center the first image ( Centers the image horizontally )- added margin-bottom and changed width */
 
-.first-section {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem
-}
+  .first-section {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem
+  }
 
-/* sucess page button */
+  /* sucess page button */
 
-.home {
-  vertical-align: middle;
- 
-  
-} 
-  
+  .home {
+    vertical-align: middle;
+
+  }
+
 
 }
 
@@ -329,134 +322,141 @@ text-align:center;
   #nav-list {
     display: block;
     position: relative;
-    padding:1rem;
-    display:flex; Puts the nav list into a row */ */
-    
+    padding: 1rem;
+    display: flex;
+    Puts the nav list into a row */ */
   }
 
   nav li {
-    padding:1rem; */ space between nav list */
+    padding: 1rem;
+    */ space between nav list */
   }
 
   #menu-bars {
-    display: none !important; */ make the nav toggle bars disapper */
+    display: none !important;
+    */ make the nav toggle bars disapper */
   }
 
   #sub {
-    margin-top:0.5rem !important;
-   }
-
-   /* Main */
-
-
-   .main {
-    display:flex !important;
-    
-    
-   }
-
-   .first-col {
-    font-size:22px
-   }
-
-   .first-section p{
-    float:right;
-    padding: 10px 10px;
-    font-size:15px;
-   }
-
-   
-
-   .featured-header{
-    text-align: center;
-    text-wrap:wrap;
-   }
-
-   .main-header {
-    text-align:center;
-    margin-top: 3rem;
-    margin-bottom:2rem;
-    font-size:30px
-   } 
-
-   .main-paragraph {
-    float:right;
-    margin-top:10rem;
-    font-size:20px;
-    width:50%; */ wraps the text */
-    
-   }
-
-   .second-section {
-    display:flex !important;
-    justify-content:space-evenly;
-    margin-top:1rem !important;
-   }
-  
-   .second-header {
-    text-align:center;
-    margin-top: 1rem;
-   }
-
-
- 
-/* Footer */
-
- #subscribe {
-  position: absolute;
-  right: 0;
-  
-}
-
-
-#contact {
-  display:flex;
-  margin-bottom: 4rem;
-}
-
-footer h6 {
-  padding: 1.2rem
-  
-}
-
-/* Subscribe page */
-
-.newsletter {
-  margin-left:150px;
-  margin-top:80px
-}
-
-/* Success page */
-
-.sucess-header{
-  
-  margin-top:150px
+    margin-top: 0.5rem !important;
   }
-  
+
+  /* Main */
+
+
+  .main {
+    display: flex !important;
+
+
+  }
+
+  .first-col {
+    font-size: 22px
+  }
+
+  .first-section p {
+    float: right;
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+
+
+
+  .featured-header {
+    text-align: center;
+    text-wrap: wrap;
+  }
+
+  .main-header {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 30px
+  }
+
+  .main-paragraph {
+    float: right;
+    margin-top: 10rem;
+    font-size: 20px;
+    width: 50%;
+    */ wraps the text */
+  }
+
+  .second-section {
+    display: flex !important;
+    justify-content: space-evenly;
+    margin-top: 1rem !important;
+  }
+
+  .second-header {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+
+
+  /* Footer */
+
+  #subscribe {
+    position: absolute;
+    right: 0;
+
+  }
+
+
+  #contact {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+
+  footer h6 {
+    padding: 1.2rem
+  }
+
+  /* Subscribe page */
+
+  .newsletter {
+    margin-left: 150px;
+    margin-top: 80px
+  }
+
+  /* Success page */
+
+  .sucess-header {
+
+    margin-top: 150px
+  }
+
   .sucess-paragraph {
-    font-size:18px
-  
+    font-size: 18px
   }
 
   /* Events page */
 
   .first-event {
-    float:left;
-    /* margin-left:25px; */
-  } 
-
-  .first-event p {
-    float:right;
+    float: left;
   }
 
-  
+  .first-event p {
+    float: right;
+  }
 
-  .second-event img{
-    float:right;
+
+
+  .second-event img {
+    float: right;
   }
 
   .second-event p {
-    float:left
+    float: left
+  }
+
+  .third-event {
+    float: left;
+  }
+
+  .third-event p {
+    float: right;
   }
 
 
@@ -468,83 +468,83 @@ footer h6 {
 
 
   .about-us {
-    margin-top:25px;
+    margin-top: 25px;
 
   }
 
   #sub {
-    width:7rem;
-    height:2.5rem;
+    width: 7rem;
+    height: 2.5rem;
   }
 
-  #first-header{
-    font-size:35px;
-    margin-bottom:2rem
+  #first-header {
+    font-size: 35px;
+    margin-bottom: 2rem
   }
 
 
- .first-section {
-  margin-right: 7rem;
- 
+  .first-section {
+    margin-right: 7rem;
+
   }
 
   .second-header {
-    padding-top:4rem;
-    font-size:35px
+    padding-top: 4rem;
+    font-size: 35px
   }
 
   .main-header {
-    font-size:35px
+    font-size: 35px
   }
 
   .main-paragraph {
     position: absolute;
-    width:25%;
-    margin-left:600px;
-    margin-top:96px;
-    font-size:30px;
+    width: 25%;
+    margin-left: 600px;
+    margin-top: 96px;
+    font-size: 30px;
     /* margin: auto; */
     /* text-align: center; */
-    
-    
-  
+
+
+
   }
 
   /* Subscribe page */
 
   .newsletter {
     margin: auto;
-   
-    width:25%;
-    
+
+    width: 25%;
+
   }
 
   .newsletter-header {
-    font-size:30px
+    font-size: 30px
   }
 
-  .newsletter-paragraph{
-    font-size:20px
+  .newsletter-paragraph {
+    font-size: 15px
   }
 
   /* subscibe success page */
 
 
-  .sucess-header{
-    font-size:70px;
-    margin-top:70px
-    }
-    
-    .sucess-paragraph {
-      font-size:35px;
-    }
+  .sucess-header {
+    font-size: 70px;
+    margin-top: 70px
+  }
 
-     /* Success button */
+  .sucess-paragraph {
+    font-size: 35px;
+  }
+
+  /* Success button */
 
   .home {
-    height:50px;
-    margin-top:25px;
-    }
+    height: 50px;
+    margin-top: 25px;
+  }
 
 
 }

@@ -68,6 +68,8 @@ Code
 
 Drop down navigation: https://www.understandingcode.com/drop-down-navigation-bones/
 
+CSS Layout - float and clear : https://www.w3schools.com (edited to match wireframe)
+
 _Graphics_
 
 Wireframes and logo created in canva
