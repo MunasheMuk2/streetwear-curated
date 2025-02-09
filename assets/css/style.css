@@ -268,15 +268,13 @@ footer h6 {
 }
 
 
-   /* Events page */
+/* Events page */
 
-   section > div {
-    text-align:center;
-    display:block;
-    margin: 0 auto;
-   }
 
-  
+
+
+
+
 
 /* Media queries */
 
@@ -403,7 +401,12 @@ footer h6 {
   #subscribe {
     position: absolute;
     right: 0;
+    
 
+  }
+
+  #ftbutton {
+    margin-left:25px
   }
 
 
@@ -436,37 +439,45 @@ footer h6 {
 
   /* Events page */
 
+  /* Flex row and row reverse allows image and text to be next to each other on the left and the right */
+
+ #events-paragraph {
+    font-size: 15px ;
+  }
+
+
   .first-event {
-    float: left;
-    margin-right: 200px;
-   
+    display: flex;
+    flex-direction: row;
+    margin-top:16px;
   }
 
   .first-event p {
-    float: right;
-    width:60%;
-    margin-left: 100px;
-    
+    margin-left: 1rem
   }
 
-
-
-  .second-event img {
-    float: right;
+  .second-event {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:16px;
   }
 
   .second-event p {
-    float: left
+    margin-right: 2rem
   }
 
+
+
   .third-event {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-top:16px;
+    margin-bottom:20px;
   }
 
   .third-event p {
-    float: right;
+    margin-left: 2rem
   }
-
 
 
 }
@@ -553,6 +564,45 @@ footer h6 {
     height: 50px;
     margin-top: 25px;
   }
+
+   /* Events page */
+
+.events-main {
+  width:80%;
+  margin:auto;
+}
+
+ #events-paragraph {
+  font-size: 20px ;
+}
+
+
+.first-event {
+  margin-top:32px;
+}
+
+.first-event p {
+  margin-top: 32px;
+  width:50%;
+}
+
+
+.second-event p {
+  margin-top: 32px;
+  width:50%;
+}
+
+
+
+.third-event {
+ 
+  margin-bottom:36px;
+}
+
+.third-event p {
+  margin-top: 32px;
+  width:50%;
+}
 
 
 }
