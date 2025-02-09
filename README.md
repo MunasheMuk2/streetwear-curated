@@ -87,6 +87,10 @@ Reference where you got your content, media and extra help from
 
 ### Content
 
+Events page content from: https://www.swlondoner.co.uk/life/18092024-top-five-sneaker-and-street-fashion-events
+
+Other content also AI generated
+
 ### Media
 
 _Photo credit_
