@@ -438,6 +438,29 @@ footer h6 {
   
   }
 
+  /* Events page */
+
+  .first-event {
+    float:left;
+    /* margin-left:25px; */
+  } 
+
+  .first-event p {
+    float:right;
+  }
+
+  
+
+  .second-event img{
+    float:right;
+  }
+
+  .second-event p {
+    float:left
+  }
+
+
+
  
 
 }
@@ -499,7 +522,7 @@ footer h6 {
   }
 
   .newsletter-header {
-    font-size:40px
+    font-size:30px
   }
 
   .newsletter-paragraph{
@@ -515,7 +538,7 @@ footer h6 {
     }
     
     .sucess-paragraph {
-      font-size:30px;
+      font-size:35px;
     }
 
      /* Success button */
