@@ -73,6 +73,7 @@ CSS Layout - float and clear : https://www.w3schools.com (edited to match wirefr
 _Graphics_
 
 Wireframes and logo created in canva
+Image resizing and cropping: https://www.adobe.com
 
 Text content
 
