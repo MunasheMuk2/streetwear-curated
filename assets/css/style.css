@@ -242,6 +242,12 @@ footer h6 {
   /*Centers button on all screen sizes */
 }
 
+/* Events/rare finds page - events css reused on rare finds page as both have the same layout */
+
+.first-event {
+  margin-top: 16px;
+}
+
 /* Media queries */
 
 /* Small devices (portrait tablets and large phones, 350px and up) */
@@ -379,7 +385,7 @@ footer h6 {
     font-size: 18px;
   }
 
-  /* Events/rare finds page */
+  /* Events/rare finds page - events css reused on rare finds page as both have the same layout */
 
   /* Flex row and row reverse allows image and text to be next to each other on the left and the right */
 
@@ -492,7 +498,7 @@ footer h6 {
     margin-top: 25px;
   }
 
-  /* Events/rare finds page */
+  /* Events/rare finds page - events css reused on rare finds page as both have the same layout */
 
   .events-main {
     width: 80%;
