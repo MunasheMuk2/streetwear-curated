@@ -120,3 +120,6 @@ Had to add absolute position in CSS to text I made float on the right on the fir
 Subscibe success page
 
 Had an issue centering the 'return to home' button for the sucess page with margin auto so ended up putting the button in a div and using text align - center
+
+subscribe button - getting error: The element button must not appear as a descendant of the a element.
+solution - created anchor tag with subscribe in html and used styling to decorate it to look like a button
