@@ -34,11 +34,11 @@ body {
 
 .red-button {
   background-color: var(--color-tertiary) !important;
+  text-decoration: none !important;
 }
 
 .red-button:hover {
   color: #000 !important;
-
 }
 
 /* Headings */
@@ -73,7 +73,6 @@ header li {
 
 nav {
   margin: 1rem;
-
 }
 
 #nav-list {
@@ -85,7 +84,7 @@ nav {
   display: none;
 }
 
-#menu:checked~#nav-list {
+#menu:checked ~ #nav-list {
   display: block;
 }
 
@@ -94,26 +93,19 @@ nav {
 }
 
 .active:hover {
-  background-color: #d10f0f;
-  color: #ffffff;
-
+  text-decoration: underline;
 }
-
 
 /* Main section */
 
 main {
-
   background-color: var(--color-secondary);
   flex: 1 0 auto;
   margin-top: 1rem;
-
 }
 
 .about-us {
   margin-top: 2rem;
-  margin-bottom:
-
 }
 
 /* Centering subscribe button  */
@@ -124,44 +116,36 @@ main {
 }
 
 section {
-
   margin: auto;
   /* Centers main content but does not affect content on bigger screens */
-
 }
 
 .first-section {
   margin-left: 1rem;
   margin-right: 1rem;
   width: 80%;
+}
 
-
+.first-col {
+  text-align: center;
+  font-size: 14px;
 }
 
 .main-header {
   text-align: center;
   margin-top: 2rem;
   font-size: 18px;
-
 }
 
 .main-paragraph {
   text-align: center;
   font-size: 13px;
-
 }
-
 
 .second-header {
   text-align: center;
   margin-top: 1rem;
-  font-size: 25px
-}
-
-
-.first-col {
-  Text-align: center;
-  font-size: 14px;
+  font-size: 25px;
 }
 
 .card {
@@ -172,11 +156,10 @@ section {
 .featured-header {
   font-size: 25px;
   text-align: center;
-
 }
 
 .featured-paragraph {
-  text-align: center
+  text-align: center;
 }
 
 /* Footer section */
@@ -217,23 +200,18 @@ footer h6 {
   min-height: 4rem;
 }
 
-
 /* Subscribe Page  */
-
-
 
 #details {
   margin-left: 15px;
-
-
 }
 
 .newsletter-header {
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .newsletter-paragraph {
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .email {
@@ -243,8 +221,6 @@ footer h6 {
 .submit {
   margin-top: 16px;
   margin-bottom: 16px;
-
-
 }
 
 /* Success page */
@@ -252,7 +228,7 @@ footer h6 {
 .sucess-header {
   text-align: center;
   font-size: 35px;
-  margin-top: 70px
+  margin-top: 70px;
 }
 
 .sucess-paragraph {
@@ -264,28 +240,18 @@ footer h6 {
 #return {
   text-align: center;
   /*Centers button on all screen sizes */
-
 }
-
 
 /* Media queries */
 
-
 /* Small devices (portrait tablets and large phones, 350px and up) */
 @media only screen and (min-width: 350px) {
-
-
-
   .second-header {
     margin: auto;
-
   }
 
-
   section {
-
     width: 90%;
-
   }
 
   /* Code from W3schools.com to center the first image ( Centers the image horizontally )- added margin-bottom and changed width */
@@ -295,17 +261,12 @@ footer h6 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
   }
-
-
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-
   /* Header */
 
   nav {
@@ -317,17 +278,17 @@ footer h6 {
     position: relative;
     padding: 1rem;
     display: flex;
-    Puts the nav list into a row */ */
+    /*Puts the nav list into a row */
   }
 
   nav li {
     padding: 1rem;
-    */ space between nav list */
+    /* space between nav list */
   }
 
   #menu-bars {
     display: none !important;
-    */ make the nav toggle bars disapper */
+    /* make the nav toggle bars disapper */
   }
 
   #sub {
@@ -336,15 +297,12 @@ footer h6 {
 
   /* Main */
 
-
   .main {
     display: flex !important;
-
-
   }
 
   .first-col {
-    font-size: 22px
+    font-size: 22px;
   }
 
   .first-section p {
@@ -352,8 +310,6 @@ footer h6 {
     padding: 10px 10px;
     font-size: 15px;
   }
-
-
 
   .featured-header {
     text-align: center;
@@ -364,7 +320,7 @@ footer h6 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    font-size: 30px
+    font-size: 30px;
   }
 
   .main-paragraph {
@@ -372,7 +328,7 @@ footer h6 {
     margin-top: 10rem;
     font-size: 20px;
     width: 50%;
-    */ wraps the text */
+    /* wraps the text */
   }
 
   .second-section {
@@ -386,21 +342,16 @@ footer h6 {
     margin-top: 1rem;
   }
 
-
-
   /* Footer */
 
   #subscribe {
     position: absolute;
     right: 0;
-    
-
   }
 
   #ftbutton {
-    margin-left:25px
+    margin-left: 25px;
   }
-
 
   #contact {
     display: flex;
@@ -408,79 +359,70 @@ footer h6 {
   }
 
   footer h6 {
-    padding: 1.2rem
+    padding: 1.2rem;
   }
 
   /* Subscribe page */
 
   .newsletter {
     margin-left: 150px;
-    margin-top: 80px
+    margin-top: 80px;
   }
 
   /* Success page */
 
   .sucess-header {
-
-    margin-top: 150px
+    margin-top: 150px;
   }
 
   .sucess-paragraph {
-    font-size: 18px
+    font-size: 18px;
   }
 
   /* Events/rare finds page */
 
   /* Flex row and row reverse allows image and text to be next to each other on the left and the right */
 
- #events-paragraph {
-    font-size: 15px ;
+  #events-paragraph {
+    font-size: 15px;
   }
-
 
   .first-event {
     display: flex;
     flex-direction: row;
-    margin-top:16px;
+    margin-top: 16px;
   }
 
   .first-event p {
-    margin-left: 1rem
+    margin-left: 1rem;
   }
 
   .second-event {
     display: flex;
     flex-direction: row-reverse;
-    margin-top:16px;
+    margin-top: 16px;
   }
 
   .second-event p {
-    margin-right: 2rem
+    margin-right: 2rem;
   }
-
-
 
   .third-event {
     display: flex;
     flex-direction: row;
-    margin-top:16px;
-    margin-bottom:20px;
+    margin-top: 16px;
+    margin-bottom: 20px;
   }
 
   .third-event p {
-    margin-left: 2rem
+    margin-left: 2rem;
   }
-
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
-
   .about-us {
     margin-top: 25px;
-
   }
 
   #sub {
@@ -490,22 +432,20 @@ footer h6 {
 
   #first-header {
     font-size: 35px;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
   }
-
 
   .first-section {
     margin-right: 7rem;
-
   }
 
   .second-header {
     padding-top: 4rem;
-    font-size: 35px
+    font-size: 35px;
   }
 
   .main-header {
-    font-size: 35px
+    font-size: 35px;
   }
 
   .main-paragraph {
@@ -516,9 +456,6 @@ footer h6 {
     font-size: 30px;
     /* margin: auto; */
     /* text-align: center; */
-
-
-
   }
 
   /* Subscribe page */
@@ -527,23 +464,21 @@ footer h6 {
     margin: auto;
 
     width: 25%;
-
   }
 
   .newsletter-header {
-    font-size: 30px
+    font-size: 30px;
   }
 
   .newsletter-paragraph {
-    font-size: 15px
+    font-size: 15px;
   }
 
   /* subscibe success page */
 
-
   .sucess-header {
     font-size: 70px;
-    margin-top: 70px
+    margin-top: 70px;
   }
 
   .sucess-paragraph {
@@ -559,44 +494,37 @@ footer h6 {
 
   /* Events/rare finds page */
 
-.events-main {
-  width:80%;
-  margin:auto;
-}
+  .events-main {
+    width: 80%;
+    margin: auto;
+  }
 
- #events-paragraph {
-  font-size: 20px ;
-}
+  #events-paragraph {
+    font-size: 20px;
+  }
 
+  .first-event {
+    margin-top: 32px;
+  }
 
-.first-event {
-  margin-top:32px;
-}
+  .first-event p {
+    margin-top: 32px;
+    width: 50%;
+  }
 
-.first-event p {
-  margin-top: 32px;
-  width:50%;
-}
+  .second-event p {
+    margin-top: 32px;
+    width: 50%;
+  }
 
+  .third-event {
+    margin-bottom: 36px;
+  }
 
-.second-event p {
-  margin-top: 32px;
-  width:50%;
-}
-
-
-
-.third-event {
- 
-  margin-bottom:36px;
-}
-
-.third-event p {
-  margin-top: 32px;
-  width:50%;
-}
-
-
+  .third-event p {
+    margin-top: 32px;
+    width: 50%;
+  }
 }
 
 /* End of media queries */
