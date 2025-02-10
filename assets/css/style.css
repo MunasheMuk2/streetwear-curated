@@ -11,12 +11,9 @@
 /* CSS variables */
 
 :root {
-  --color-primary: #000;
-  /* black */
-  --color-secondary: #ffffff;
-  /* white */
-  --color-tertiary: #d10f0f;
-  /* red */
+  --color-primary: #000; /* black */
+  --color-secondary: #ffffff; /* white */
+  --color-tertiary: #d10f0f; /* red */
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Public Sans", sans-serif;
 }
@@ -34,7 +31,6 @@ body {
 
 .red-button {
   background-color: var(--color-tertiary) !important;
-  text-decoration: none !important;
 }
 
 .red-button:hover {
@@ -96,6 +92,15 @@ nav {
   text-decoration: underline;
 }
 
+#sub-highlight {
+  border: 2px solid var(--color-tertiary);
+  border-radius: 5px;
+  background-color: var(--color-tertiary);
+  padding: 0.3rem;
+  color: var(--color-secondary);
+  font-size: 13px;
+  text-align: center;
+}
 /* Main section */
 
 main {
@@ -109,10 +114,11 @@ main {
 }
 
 /* Centering subscribe button  */
-#sub {
+.sub {
   display: block;
   margin: auto;
   width: 6rem;
+  text-decoration: none;
 }
 
 section {
@@ -221,6 +227,7 @@ footer h6 {
 .submit {
   margin-top: 16px;
   margin-bottom: 16px;
+  background-color: var(--color-tertiary) !important;
 }
 
 /* Success page */
@@ -275,6 +282,10 @@ footer h6 {
 @media only screen and (min-width: 768px) {
   /* Header */
 
+  #logo {
+    text-wrap: nowrap;
+  }
+
   nav {
     display: flex;
   }
@@ -292,13 +303,18 @@ footer h6 {
     /* space between nav list */
   }
 
+  #rare-nav {
+    text-wrap: nowrap;
+  }
+
   #menu-bars {
     display: none !important;
     /* make the nav toggle bars disapper */
   }
 
-  #sub {
-    margin-top: 0.5rem !important;
+  .sub {
+    margin-top: 0.5rem;
+    text-align: center;
   }
 
   /* Main */
@@ -355,9 +371,9 @@ footer h6 {
     right: 0;
   }
 
-  #ftbutton {
+  /* #ftbutton {
     margin-left: 25px;
-  }
+  } */
 
   #contact {
     display: flex;
@@ -427,13 +443,17 @@ footer h6 {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .about-us {
-    margin-top: 25px;
+  #sub-highlight {
+    font-size: 15px;
   }
 
-  #sub {
-    width: 7rem;
-    height: 2.5rem;
+  .sub {
+    padding: 6px 8px 6px 8px !important ;
+    font-size: 18px !important;
+  }
+
+  .about-us {
+    margin-top: 25px;
   }
 
   #first-header {
