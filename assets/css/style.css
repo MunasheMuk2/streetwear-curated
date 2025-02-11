@@ -113,6 +113,12 @@ main {
   margin-top: 2rem;
 }
 
+.jordans {
+  width: 300px;
+  height: 450px;
+  border-radius: 2%;
+}
+
 /* Centering subscribe button  */
 .sub {
   display: block;
@@ -350,7 +356,7 @@ footer h6 {
     margin-top: 10rem;
     font-size: 20px;
     width: 50%;
-    /* wraps the text */
+    /* width 50% wraps the text */
   }
 
   .second-section {
@@ -456,6 +462,10 @@ footer h6 {
     margin-top: 25px;
   }
 
+  .jordans {
+    width: 300px !important;
+  }
+
   #first-header {
     font-size: 35px;
     margin-bottom: 2rem;
@@ -477,11 +487,9 @@ footer h6 {
   .main-paragraph {
     position: absolute;
     width: 25%;
-    margin-left: 600px;
+    margin-left: 500px;
     margin-top: 96px;
     font-size: 30px;
-    /* margin: auto; */
-    /* text-align: center; */
   }
 
   /* Subscribe page */
@@ -550,6 +558,17 @@ footer h6 {
   .third-event p {
     margin-top: 32px;
     width: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-paragraph {
+    margin-left: 800px;
+  }
+
+  .jordans {
+    margin-left: 4rem !important;
   }
 }
 
