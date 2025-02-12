@@ -128,7 +128,7 @@ main {
 /*  subscribe button  */
 .sub {
   display: block;
-  margin: auto; /*Cenntering button */
+  margin: auto; /*Centering button */
   width: 6rem;
   text-decoration: none;
   margin-right:3rem;
@@ -227,11 +227,6 @@ footer h6 {
 .social-hover:hover{
 color:var(--color-tertiary)
 }
-
-/* #subscribe {
-  margin-top:1rem;
-  margin-right:2rem;
-} */
 
 #subscribe p {
   font-size: 12px;
@@ -389,12 +384,6 @@ input, select{
     font-size: 22px;
   }
 
-  /* .first-section p {
-    float: right;
-    padding: 10px 10px;
-    font-size: 15px;
-  } */
-
   .featured-header {
     text-align: center;
     text-wrap: wrap;
@@ -432,10 +421,6 @@ input, select{
     position: absolute;
     right: 0;
   }
-
-  /* #ftbutton {
-    margin-left: 25px;
-  } */
 
   #contact {
     display: flex;
