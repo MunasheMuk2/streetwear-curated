@@ -96,15 +96,6 @@ nav {
   text-decoration: underline;
 }
 
-.sub-highlight {
-  border: 2px solid var(--color-tertiary);
-  border-radius: 5px;
-  background-color: var(--color-tertiary);
-  padding: 0.3rem;
-  color: var(--color-secondary);
-  font-size: 13px;
-  text-align: center;
-}
 /* Main section */
 
 main {
@@ -134,12 +125,31 @@ main {
   border-radius: 2%;
 }
 
-/* Centering subscribe button  */
+/*  subscribe button  */
 .sub {
   display: block;
-  margin: auto;
+  margin: auto; /*Cenntering button */
   width: 6rem;
   text-decoration: none;
+  margin-right:3rem;
+  margin-top:2rem;
+  border: 2px solid var(--color-tertiary);
+  border-radius: 5px;
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
+  font-size: 13px;
+  text-align: center;
+}
+
+.sub-highlight {
+  border: 2px solid var(--color-tertiary);
+  border-radius: 5px;
+  background-color: var(--color-tertiary);
+  padding: 0.3rem;
+  color: var(--color-secondary);
+  font-size: 13px;
+  text-align: center;
+  margin:auto;
 }
 
 section {
@@ -218,9 +228,10 @@ footer h6 {
 color:var(--color-tertiary)
 }
 
-#subscribe {
-  margin: 1em;
-}
+/* #subscribe {
+  margin-top:1rem;
+  margin-right:2rem;
+} */
 
 #subscribe p {
   font-size: 12px;
@@ -506,6 +517,11 @@ input, select{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+  .logo-display{
+    margin-left:2rem !important;
+  }
+
   #sub-highlight {
     font-size: 15px;
   }
@@ -620,6 +636,12 @@ input, select{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  .logo-display{
+    margin-left:2rem !important;
+  }
+
+
   .main-paragraph {
     margin-left: 800px;
     font-size:30px;
