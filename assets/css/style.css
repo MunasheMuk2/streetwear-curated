@@ -214,6 +214,10 @@ footer h6 {
   padding: 1em;
 }
 
+.social-hover:hover{
+color:var(--color-tertiary)
+}
+
 #subscribe {
   margin: 1em;
 }
@@ -234,6 +238,14 @@ footer h6 {
   margin-left: 15px;
 }
 
+.form-width{
+  width: 300px !important;
+}
+
+input, select{
+  border:1px solid #000 !important;
+}
+
 .newsletter-header {
   margin-left: 20px;
 }
@@ -252,6 +264,9 @@ footer h6 {
   background-color: var(--color-tertiary) !important;
 }
 
+.submit:hover{
+  color: #000 !important;
+}
 /* Success page */
 
 .sucess-header {
@@ -277,8 +292,18 @@ footer h6 {
   margin-top: 16px;
 }
 
+.events-images {
+  width: 350px; 
+  height: 250px
+}
+
 .guide{
   display:none;
+}
+
+.middle-event{
+  border: 1px solid red;
+  margin-bottom:1rem;
 }
 
 /* Media queries */
@@ -442,13 +467,25 @@ footer h6 {
   }
 
   .first-event p {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   .second-event {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 16px;
+  }
+
+  .middle-event{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    border: 1px solid red;
+  }
+
+  .middle-event p{
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
 
   .second-event p {
