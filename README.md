@@ -1,7 +1,5 @@
 # Streetwear Curated Website
 
-### Intro:
-
 Streetwear Curated is a web-based fashion guide. The site showcases the latest streetwear styles and trends staying relevant with weekly updates. For streetwear collectors, there is a page with rare finds and for those looking to collaborate and socialise with other fashion forward individuals there is a fashion events page. Lastly to receive exclusive streetwear insights and expert recommendations, users have the option to subscribe.
 
 ### Target audience:
@@ -138,7 +136,7 @@ _Frequent users_
 - [VSCode](https://code.visualstudio.com/)  Used as the main code editor
 - [Git](https://git-scm.com/)  used as the version control of the website.
 - [GitHub](https://github.com/) code host for the site
-- [GIMP](https://tinypng.com/) used to compress the site images
+- [TinyPNG](https://tinypng.com/) used to compress the site images
 - Code institute tutorials for social media icons 
 ---
 
