@@ -152,6 +152,7 @@ main {
   margin:auto;
 }
 
+
 section {
   margin: auto;
   /* Centers main content but does not affect content on bigger screens */
@@ -316,6 +317,8 @@ input, select{
 
 /* Small devices (portrait tablets and large phones, 350px and up) */
 @media only screen and (min-width: 350px) {
+
+
   .second-header {
     margin: auto;
   }
@@ -377,7 +380,7 @@ input, select{
   /* Main */
 
   .main {
-    display: flex !important;
+    display:flex !important;
   }
 
   .first-col {
@@ -403,6 +406,10 @@ input, select{
     width: 50%;
     /* width 50% wraps the text */
   }
+
+ 
+
+
 
   .second-section {
     display: flex !important;

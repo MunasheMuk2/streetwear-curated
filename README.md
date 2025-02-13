@@ -36,92 +36,217 @@ _Frequent users_
 
 3. As a streetwear enthusiast, I want to collaborate/socialise with other fans, collectors and fashion forward individuals
 
-### Features
 
-**Landing Page**
-**Navigation Bar**
-**Images**
-**Buttons or Links**
-**Events Page**
-**Subscribe Page**
-**Footer**
+## Features
 
-**Social Media Icons**
++ ### Navigation bar
 
-### Manual Testing
+    - Placed at the top of the page along with the company logo "Streetwear Curated" on the left
+    - Contains navigation links on the right side:
+        * HOME - main page with featured streetwear and "about us" section for people to learn about Streetwear Curated
+        * Rare finds - leads to the rare finds page where users can see exclusive and unique streetwear items
+        * Events - the events page showcases upcoming streetwear events that bring together fans, collectors and fashion forward individuals
+        * Subscribe - leads to the subscribe form page where users can fill out the form in order to receive newsletters
+    - All links have animated hover effect.
+    - The navigation is clear and easy to use.
+    ![NavBar desktop](screenshots/desktop-nav.jpg)
 
-**HTML Validator Testing**
-**CSS Validator Testing**
-**Compatibility**
-**Unfixed Bugs**
-**Solved Bugs**
-**Known Bugs**
-**Unfixed Bugs**
+    - The navigation bar is responsive:
 
-### Deployment
+        * On mobile devices: 
+            - The full nav bar with text disappears and a  hamburger menu is implemented      
+            ![NavBar Mobile Closed](screenshots/mobile-nav.jpg)
+        
+            - When the user clicks the hamburger menu , there is dropdown menu of all the page links including the call to action subscribe button at the bottom (located at the far right on larger screens)
+            ![NavBar Mobile Open](screenshots/mobile-nav-dropdown.jpg)
 
-### Credits
+---
 
-All work done by myself - my two accounts MunasheMuk and MunasheMuk 2 showing in error in git hub 
++ ### Home Page
 
-Tutorials
+    - Features: 
 
-Code
+        * Company introductory information and showcase
+        * Streetwear imagery of exclusive items to draw users 
+        * Three call to actions (subscribe button) on the nav, in the main section and in the footer
 
-Drop down navigation: https://www.understandingcode.com/drop-down-navigation-bones/
 
-CSS Layout - float and clear : https://www.w3schools.com (edited to match wireframe)
+    ![Home Page](screenshots/home-page.jpg)
 
-_Graphics_
+---
 
-Wireframes and logo created in canva
-Image resizing and cropping: https://www.adobe.com
++ #### Rare finds
 
-Text content
+    - Rare finds page showcases rare items on the market users may be on the lookout for 
 
-Any other resources
+    - Features: 
 
-fav icons - https://favicon.io/favicon-converter/
-fav icon logo - https://www.canva.com/
-fav icon circle cropper - https://crop-circle.imageonline.co/#google_vignette
+        * Short description explaining the context of the page at the top
+        * 3 exclusive rare items with descriptions 
 
-Reference where you got your content, media and extra help from
+    
+    ![Rare Finds Page](screenshots/rare-finds-page.jpg)
 
-### Content
+--- 
 
-Events page content from: https://www.swlondoner.co.uk/life/18092024-top-five-sneaker-and-street-fashion-events
++ #### Events page
 
-Other content also AI generated
+    - Showcases upcoming events with imagery on the left hand side and descriptions on the right 
 
-### Media
+    - The events descriptions highlight what to expect from the events and also include the location details and when the events are occuring
 
-_Photo credit_
+    - Mainly for frequent users who will subsequently mention streetwear curated as their streewear information hub at the events 
 
-Images sourced from : https://unsplash.com/
+    
+    ![Events Page](screenshots/events-page.jpg)
 
-### Future features
+---
++ #### Subscribe form / Call to Action Section
+
+    - The call to action is the red subscribe button in the head and footer of every page. Also in the main content on the home page.
+
+    - The subscribe button leads to the subscribe form for users to sign up for newsletters
+
+​
+    ![Subscribe form /Call to Action ](screenshots/subscribe-form.jpg)
+    
+---
++ #### Response page
+
+    - This Response page is just a notification to the user that their submition to subcribe for newsletters is successful 
+
+    - The page also encourages the users to remain on the site as there is a return to home button
+
+​
+    ![Subscribe form /Call to Action ](screenshots/success-page.jpg)
+
+
+---
++ #### Footer
+
+    - Footer contains a contact email, social media links that open in new tabs and the call to action subscribe button on the far right along with copyright info on the bottom of the button
+​
+    ![Footer](screenshots/footer.jpg)
+​
+---
+## Technologies Used
+
+- [HTML](https://www.understandingcode.com/drop-down-navigation-bones/) - used for the drop down navigation
+- [CSS](https://stackoverflow.com) - was used to add the styles and layout of the site (including CSS flexbox)
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was for global CSS variables. (edited to match wireframe)
+- [Float and Clear](https://www.w3schools.com) CSS Layout - float and clear for rare finds page. 
+- [VSCode](https://code.visualstudio.com/)  Used as the main code editor
+- [Git](https://git-scm.com/)  used as the version control of the website.
+- [GitHub](https://github.com/) code host for the site
+- [GIMP](https://tinypng.com/) used to compress the site images
+- Code institute tutorials for social media icons 
+---
 
 ### Solved bugs
 
-Boostrap cards
+1. Had an issue centering the 'return to home' button for the sucess page with margin auto so ended up putting the button in a div and using text align - center
 
-Encountered issues after using bootstrap cards for main content on homepage as initially the cards had image first and then header and paragraph but switched this with header and paragraph first and image second for the first card but this caused issues with re-arranging the paragraph to float to the write on bigger screens to match my wireframes
-
-Also added an extra header on top of the 2nd card and this made it difficult to apply Css for bigger screens so took the header out of the bootstrap card
-
-The first image and text also needed to be separated from all the other boostrap cards so the text could float on the right side of the image
-
-display flex
-
-Using display flex to center content on small screen devices was affecting bigger screens so used margin auto instead
-
-text
-
-Had to add absolute position in CSS to text I made float on the right on the first image as the text was going on top of image on larger screens
-
-Subscibe success page
-
-Had an issue centering the 'return to home' button for the sucess page with margin auto so ended up putting the button in a div and using text align - center
-
-subscribe button - getting error: The element button must not appear as a descendant of the a element.
+2. subscribe button - getting error: The element button must not appear as a descendant of the a element.
 solution - created anchor tag with subscribe in html and used styling to decorate it to look like a button
+
+---
+## Design
+
+### Color Scheme
+
+![Color pallet](screenshots/color-pallete.jpg)
+
+- The colour scheme for the site red, white and black 
+
+- Red – mainly used to catch users’ attention on the call to action to ‘subscribe’ which will driver engagement and subscribers 
+
+- Black and white – used in order to make the content of the site the main focus and to make the site visually clean (due to the high usage of imagery to showcase different streetwear) 
+
+### Typography
+
+![Main Font](screenshots/Open-%20sans%20.jpg)
+
+- Open sans Google Font was used as the main font  to increase readability of the content on the pages as this font's modern design is highly readable even at smaller sizes.
+
+![Secondary Font](screenshots/public-sans.jpg)
+
+- Public sans Google Font was used to create a proffesional and contemporary look 
+
+### Wireframes 
+
+#### Mobile/Tablets/Desktop devices
+
+- [All pages](https://www.canva.com/design/DAGdUv1fnUs/Ca4QyP6N8gsRUMmfG0K4Sw/edit?utm_content=DAGdUv1fnUs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+---
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+---
+
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. Using the following steps: 
+  - In the [GitHub repository](https://github.com/MunasheMuk2/streetwear-curated), clicked on the Settings tab 
+  - Selected the main branch under default branch and clicked on code 
+  - Under deployments was a ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://munashemuk2.github.io/streetwear-curated/)
+
+### Local Deployment
+
+In order to make a local copy of this project clone it in your IDE Terminal using the following command:
+
+- `git clone https://github.com/MunasheMuk2/streetwear-curated`
+
+
+---
+
+## Future improvements
+- add custom 404 page;
+- improve the quality of the commit messages as I started with past tense and did not put capitals at the start
+- add a vintage streetwear page with secondhand streetwear clothing and accessories 
+
+---
+
+### Content
+
+-  Events page content from: https://www.swlondoner.co.uk/life/18092024-top-five-sneaker-and-street-fashion-events
+
+-  Other content written by myself and also AI generated
+
+---
+
+ #### Tools
+
+    - [Adobe](https://www.adobe.com) Image resizing and cropping
+    - [Favicon](https://favicon.io/favicon-converter/) resizing and shaping fav icons
+    - [Canva](https://www.canva.com/) Wireframes, logo and favicon created in canva
+    - [Crop-circle](https://crop-circle.imageonline.co/#google_vignette) fav icon circle cropper
+  
+---
+
+### Media
+
+Images sourced from : https://unsplash.com/
+
+---
+
+### Credits
+
+All work done by myself - my two accounts MunasheMuk and MunasheMuk2 showing in error in git hub as contributors
+
+
+
+## Acknowledgments
+
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova) Have learned so many things within a short period of time. Espcially grateful for her guidance and always showing me best coding practices 
+- [Code Institute](https://codeinstitute.net/) All slack community members willing to help at any time of the day. 
+
+---
