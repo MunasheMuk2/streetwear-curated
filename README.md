@@ -45,7 +45,7 @@ _Frequent users_
 
     - Placed at the top of the page along with the company logo "Streetwear Curated" on the left
     - Contains navigation links on the right side:
-        * HOME - main page with featured streetwear and "about us" section for people to learn about Streetwear Curated
+        * HOME - main page with featured streetwear and "about us" section for users to learn about Streetwear Curated
         * Rare finds - leads to the rare finds page where users can see exclusive and unique streetwear items
         * Events - the events page showcases upcoming streetwear events that bring together fans, collectors and fashion forward individuals
         * Subscribe - leads to the subscribe form page where users can fill out the form in order to receive newsletters
@@ -115,7 +115,7 @@ _Frequent users_
 ---
 + #### Response page
 
-    - This Response page is just a notification to the user that their submition to subcribe for newsletters is successful 
+    - The response page is just a notification to the user that their submition to subcribe for newsletters is successful 
 
     - The page also encourages the users to remain on the site as there is a return to home button
 
@@ -138,7 +138,6 @@ _Frequent users_
 - [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was for global CSS variables. (edited to match wireframe)
 - [Float and Clear](https://www.w3schools.com) CSS Layout - float and clear for rare finds page. 
 - [VSCode](https://code.visualstudio.com/)  Used as the main code editor
-- [Git](https://git-scm.com/)  used as the version control of the website.
 - [GitHub](https://github.com/) code host for the site
 - [TinyPNG](https://tinypng.com/) used to compress the site images
 - Code institute tutorials for social media icons 
@@ -148,7 +147,7 @@ _Frequent users_
 
 1. Had an issue centering the 'return to home' button for the sucess page with margin auto so ended up putting the button in a div and using text align - center
 
-2. subscribe button - getting error: The element button must not appear as a descendant of the a element.
+2. subscribe button - was getting an error: The element button must not appear as a descendant of the a element.
 solution - created anchor tag with subscribe in html and used styling to decorate it to look like a button
 
 ---
@@ -158,9 +157,9 @@ solution - created anchor tag with subscribe in html and used styling to decorat
 
 ![Color pallet](screenshots/color-pallete.jpg)
 
-- The colour scheme for the site red, white and black 
+- The colour scheme for the site is red, white and black 
 
-- Red – mainly used to catch users’ attention on the call to action to ‘subscribe’ which will driver engagement and subscribers 
+- Red – mainly used to catch users’ attention on the call to action to ‘subscribe’ which will drive engagement and subscribers 
 
 - Black and white – used in order to make the content of the site the main focus and to make the site visually clean (due to the high usage of imagery to showcase different streetwear) 
 
@@ -178,14 +177,14 @@ solution - created anchor tag with subscribe in html and used styling to decorat
 
 #### Mobile/Tablets/Desktop devices
 
-- [All pages](https://www.canva.com/design/DAGdUv1fnUs/Ca4QyP6N8gsRUMmfG0K4Sw/edit?utm_content=DAGdUv1fnUs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Wireframe link](https://www.canva.com/design/DAGdUv1fnUs/Ca4QyP6N8gsRUMmfG0K4Sw/edit?utm_content=DAGdUv1fnUs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ---
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related information 
+Please refer to the [TESTING.md](testing.md) file for all test-related information 
 
 ---
 
@@ -217,11 +216,11 @@ In order to make a local copy of this project clone it in your IDE Terminal usin
 
 ---
 
-### Content
+### Content 
 
--  Events page content from: https://www.swlondoner.co.uk/life/18092024-top-five-sneaker-and-street-fashion-events
+-  Events page text content from: https://www.swlondoner.co.uk/life/18092024-top-five-sneaker-and-street-fashion-events
 
--  Other content written by myself and also AI generated
+-  Other text content written by myself and also AI generated
 
 ---
 
