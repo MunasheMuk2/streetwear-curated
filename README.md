@@ -185,7 +185,7 @@ solution - created anchor tag with subscribe in html and used styling to decorat
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+Please refer to the [TESTING.md](TESTING.md) file for all test-related information 
 
 ---
 
