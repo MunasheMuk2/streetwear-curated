@@ -6,13 +6,11 @@
 
 In order to confirm the correct functionality, responsiveness, and appearance:
 
-+ The website was tested on the following browsers: Chrome, Firefox, Brave.
++ The website was tested on the most popular browsers : Chrome and internet explorer
 
     - Chrome:
 
     ![Chrome](screenshots/chrome-test.jpg)
-
-    - FireFox:
 
     ![Internet explorer](screenshots/internet-explorer-test.jpg)
 
@@ -20,7 +18,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Responsiveness
 
 
-+ The website was checked by devtools in  Chrome browsers.
++ Also checked the website's responsiveness in devtools - Chrome.
 
     - Extra small devices:
 

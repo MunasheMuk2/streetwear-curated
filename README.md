@@ -247,7 +247,7 @@ All work done by myself - my two accounts MunasheMuk and MunasheMuk2 showing in 
 
 ## Acknowledgments
 
-- [Juliia Konovalova](https://github.com/IuliiaKonovalova) Have learned so many things within a short period of time. Espcially grateful for her guidance and always showing me best coding practices 
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova) - My mentor- I have learned so many things within a short period of time. Espcially grateful for her guidance and always showing me best coding practices 
 - [Code Institute](https://codeinstitute.net/) All slack community members willing to help at any time of the day. 
 
 ---
