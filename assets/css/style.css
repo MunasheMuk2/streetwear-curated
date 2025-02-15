@@ -337,7 +337,7 @@ input, select{
   /*Centers button on all screen sizes */
 }
 
-/* Events/rare finds page - events css reused on rare finds page as both have the same layout */
+/* Events/rare finds page - events css reused on rare finds page as both have the similar layout */
 
 .first-event {
   margin-top: 16px;
@@ -550,7 +550,7 @@ input, select{
     font-size: 18px;
   }
 
-  /* Events/rare finds page - events css reused on rare finds page as both have the same layout */
+  /* Events/rare finds page - events css reused on rare finds page as both have the similar layout */
 
   /* Flex row and row reverse allows image and text to be next to each other on the left and the right */
 
@@ -692,7 +692,7 @@ input, select{
     margin-top: 25px;
   }
 
-  /* Events/rare finds page - events css reused on rare finds page as both have the same layout */
+  /* Events/rare finds page - events css reused on rare finds page as both have the similar layout */
 
   .events-main {
     width: 80%;
