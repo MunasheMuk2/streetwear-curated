@@ -73,7 +73,7 @@ header li {
 }
 
 nav {
-  margin: 1rem;
+  margin: 16px;
   
 }
 
@@ -108,6 +108,8 @@ main {
 
 .about-us {
   margin-top: 2rem;
+ 
+  
 }
 
 .main-header {
@@ -231,7 +233,7 @@ section {
 }
 
 .featured-header {
-  font-size: 25px;
+  font-size: 17px;
   text-align: center;
   
 }
