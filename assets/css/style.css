@@ -114,11 +114,13 @@ main {
   text-align: center;
   margin-top: 2rem;
   font-size: 18px;
+  text-wrap:nowrap;
 }
 
 .main-paragraph {
   text-align: center;
   font-size: 13px;
+  
 }
 
 .jordans {
@@ -177,6 +179,7 @@ main {
 section {
   margin: 0 auto;
   display: table;
+  
 }
   /* Test
  
@@ -218,7 +221,8 @@ section {
 .second-header {
   text-align: center;
   margin-top: 1rem;
-  font-size: 25px;
+  font-size: 20px;
+  text-wrap:nowrap;
 }
 
 .card {
@@ -229,10 +233,13 @@ section {
 .featured-header {
   font-size: 25px;
   text-align: center;
+  
 }
 
 .featured-paragraph {
   text-align: center;
+  width:100%;
+  
 }
 
 /* Footer section */
@@ -473,11 +480,15 @@ input, select{
     margin-top: 10rem;
     font-size: 20px;
     width: 50%;
+    text-wrap:wrap;
+    
     /* width 50% wraps the text */
   }
 
  
-
+ .second-header {
+  font-size:25px;
+ }
 
 
   .second-section {
