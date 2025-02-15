@@ -361,7 +361,6 @@ input, select{
   } */
 
    centered{
-    background-color:pink;
     max-width:70%;
     /* width:100px; */
     
@@ -398,7 +397,6 @@ input, select{
   /* Header */
 
    .center{
-    background-color:pink;
     max-width: 150%;
     margin: 0 auto;
    }
@@ -406,7 +404,6 @@ input, select{
  
 
   .centered{
-    background-color:pink;
     max-width: 150%;
     margin: 0 auto;
   }
@@ -713,6 +710,7 @@ input, select{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+ 
 
    .main-paragraph {
     position: absolute;
@@ -724,8 +722,11 @@ input, select{
 
 
   .jordans {
-    /* float:left; */
-    margin-right:1500px
+  
+    margin-right:0;
+    margin-left: auto;
+    display:block;
+/* Displays image to the left of the text on XL devices */
     
   }
 
