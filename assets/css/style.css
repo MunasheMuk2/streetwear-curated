@@ -726,8 +726,9 @@ input, select{
 
 
   .jordans {
-    float:left;
-    margin-bottom:5rem
+    /* float:left; */
+    margin-right:1500px
+    
   }
 
   .logo-display{
