@@ -128,7 +128,6 @@ main {
 }
 
 .center{
-  background-color:pink;
   max-width: 50%;
   margin: 0 auto;
   text-align: center;
@@ -138,7 +137,6 @@ main {
 
 
 .centered{
-  background-color:pink;
   max-width:100%;
   margin: 0 auto;
   text-align: center;
@@ -447,7 +445,7 @@ input, select{
   }
 
   .sub {
-    margin-top: 0.5rem;
+    margin-top: 0.9rem;
     text-align: center;
   }
 
