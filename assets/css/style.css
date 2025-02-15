@@ -25,6 +25,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 /* Buttons */
@@ -73,6 +74,7 @@ header li {
 
 nav {
   margin: 1rem;
+  
 }
 
 #nav-list {
@@ -125,6 +127,27 @@ main {
   border-radius: 2%;
 }
 
+.center{
+  background-color:pink;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  /* Test */
+
+
+.centered{
+  background-color:pink;
+  max-width:100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 0.8em; !important;
+}
+
+  /* Test
+
+
 /*  subscribe button  */
 .sub {
   display: block;
@@ -154,15 +177,28 @@ main {
 
 
 section {
-  margin: auto;
-  /* Centers main content but does not affect content on bigger screens */
+  margin: 0 auto;
+  display: table;
 }
+  /* Test
+ 
+  /* Margin - Centers main content but does not affect content on bigger screens and display table on smaller screens*/
+
 
 .first-section {
   margin-left: 1rem;
   margin-right: 1rem;
   width: 80%;
+  
 }
+ 
+/* .center {
+  background-color:pink;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+} */
 
 .first-col {
   text-align: center;
@@ -318,6 +354,26 @@ input, select{
 /* Small devices (portrait tablets and large phones, 350px and up) */
 @media only screen and (min-width: 350px) {
 
+  /* section {
+    background:pink;
+    
+    margin-left: auto;
+
+    margin-right: auto;
+  } */
+
+   centered{
+    background-color:pink;
+    max-width:70%;
+    /* width:100px; */
+    
+   }
+    
+  
+    /* Test */
+  
+
+
 
   .second-header {
     margin: auto;
@@ -334,13 +390,31 @@ input, select{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
+    
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   /* Header */
+
+   .center{
+    background-color:pink;
+    max-width: 150%;
+    margin: 0 auto;
+   }
+    /* Test */
+ 
+
+  .centered{
+    background-color:pink;
+    max-width: 150%;
+    margin: 0 auto;
+  }
+  
+    /* Test */
+  
 
   #logo {
     text-wrap: nowrap;
@@ -555,13 +629,13 @@ input, select{
     font-size: 35px;
   }
 
-  .main-paragraph {
+  /* .main-paragraph {
     position: absolute;
     width: 25%;
     margin-left: 500px;
     margin-top: 96px;
     font-size: 30px;
-  }
+  } */
 
   /* Footer copyright info */
 
@@ -640,6 +714,21 @@ input, select{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+
+   .main-paragraph {
+    position: absolute;
+    width: 25%;
+    margin-left: 500px;
+    margin-top: 96px;
+    font-size: 30px;
+  } 
+
+
+  .jordans {
+    float:left;
+    margin-bottom:5rem
+  }
 
   .logo-display{
     margin-left:2rem !important;
