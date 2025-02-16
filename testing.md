@@ -47,7 +47,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Navbar | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
 | Rare finds | Click on the "Rare finds" link | The user is redirected to the rare finds page | Yes | Yes | - |
-| Events | Click on the "Events" link | The user is redirected to the contact page | Yes | Yes | - |
+| Events | Click on the "Events" link | The user is redirected to the events page | Yes | Yes | - |
 | Footer | | | | | |
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
@@ -58,11 +58,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | "Subscribe" button in footer section (all pages)| Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
 | Subscribe page | | | | | |
 | Full name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter their full name, a fill in this field message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. The error messgae also appears if the email is not valid email |
-| Main interest | Click on the dropdown selection | The dropdown provides options | Yes | Yes | These options are not required as the user can choose not to advise their main interests|
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. The error messgae also appears if the email is not a valid email |
+| Main interest | Click on the dropdown selection | The dropdown provides options and select one option | Yes | Yes | These options are not required as the user can choose not to advise their main interest|
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Response page | | | | | |
-| Response message | click on return to home button | Once user clicks "return to home" button they are redirected to the home page | Yes | Yes | - |
+| Response message | click on return to home button | Once user clicks "return to home" button they are redirected to the home page | Yes | Yes | The return to home button keeps users engaged with the website|
 
 
 
