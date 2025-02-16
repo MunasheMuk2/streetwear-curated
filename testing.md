@@ -58,25 +58,25 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Rare finds Page HTML Validator](screenshots/rare-checker.jpg)
 
-    - No errors or warnings were found when passing through the official W3C validator - just info advising trailing slash on void elements has no effect 
+    - No errors or warnings were found when passing through the official W3C validator.
 
   #### Events Page
 
     ![Events Page HTML Validator](screenshots/events-checker.jpg)
 
-      - No errors or warnings were found when passing through the official W3C validator - just info advising trailing slash on void elements has no effect 
+      - No errors or warnings were found when passing through the official W3C validator.
 
   #### Subscribe Page
 
     ![Subscribe Page HTML Validator](screenshots/subscribe-checker.jpg)
 
-      - No errors or warnings were found when passing through the official W3C validator - just info advising trailing slash on void elements has no effect 
+       - No errors or warnings were found when passing through the official W3C validator.
 
       #### Response Page
 
     ![Response Page HTML Validator](screenshots/response-checker.jpg)
 
-      - No errors or warnings were found when passing through the official W3C validator - just info advising trailing slash on void elements has no effect 
+     - No errors or warnings were found when passing through the official W3C validator.
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator 
