@@ -42,7 +42,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ---
 
-    -  large devices:
+    -  Large devices:
 
     ![large devices](screenshots/large-devices.jpg)
 
@@ -96,7 +96,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ---
+---
 
   #### Events Page
 
@@ -104,7 +104,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
       - No errors or warnings were found when passing through the official W3C validator.
 
-      ---
+---
 
   #### Subscribe Page
 
@@ -112,15 +112,14 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
        - No errors or warnings were found when passing through the official W3C validator.
 
-       ---
+---
 
       #### Response Page
 
     ![Response Page HTML Validator](screenshots/response-checker.jpg)
 
      - No errors or warnings were found when passing through the official W3C validator.
-
-     ---
+---
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator 
