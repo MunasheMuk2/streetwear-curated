@@ -137,6 +137,7 @@ _Frequent users_
 - [CSS](https://stackoverflow.com) - was used to add the styles and layout of the site (including CSS flexbox)
 - [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was for global CSS variables. (edited to match wireframe)
 - [Float and Clear](https://www.w3schools.com) CSS Layout - float and clear for rare finds page. 
+- [Horizontally centering elements](https://jetthoughts.com/blog/how-horizontally-center-an-element-without-flex-css-html/) CSS Layout centering index.html elements
 - [VSCode](https://code.visualstudio.com/)  Used as the main code editor
 - [GitHub](https://github.com/) code host for the site
 - [TinyPNG](https://tinypng.com/) used to compress the site images
