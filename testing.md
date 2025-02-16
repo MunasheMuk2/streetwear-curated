@@ -1,7 +1,7 @@
 
 # TESTING
 
-(screenshots/site-gif.GIF)
+![Site gif](screenshots/site-gif.GIF)
 
 ## Compatibility
 
