@@ -106,3 +106,27 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator 
     ![CSS](screenshots/css-checker.jpg)
+
++ ## LightHouse report
+
+    - Lighthouse in devtools confirmed the site has optimal perfoamce, accessible and colors and fonts chosen are readable.
+    
+  ### Home page
+
+  ![Home Page Lighthouse](screenshots/home-perfomance.jpg)
+
+  ### Rare finds page
+
+  ![Rare finds Page Lighthouse](screenshots/rare-finds-perfomance.jpg)
+
+  ### Events page
+
+  ![Events Page Lighthouse](screenshots/events-page-perfomance.jpg)
+
+   ### Subscribe page
+
+  ![Subscribe Page Lighthouse](screenshots/subscribe-page-perfomance.jpg)
+
+  ### Response page
+
+  ![Response Page Lighthouse](screenshots/response-page-perfomance.jpg)
