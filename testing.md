@@ -12,7 +12,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Chrome](screenshots/chrome-test.jpg)
 
     ![Internet explorer](screenshots/internet-explorer-test.jpg)
-
+    
+---
 
 ## Responsiveness
 
@@ -40,7 +41,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
      -  Extra large devices:
 
     ![Extra large devices](screenshots/xl-devices.jpg)
-
+---
 ## Manual testing
 
 | feature | action | expected result | tested | passed | comments |
@@ -65,7 +66,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Response page | | | | | |
 | Response message | click on return to home button | Once user clicks "return to home" button they are redirected to the home page | Yes | Yes | The return to home button keeps users engaged with the website|
 
-
+---
 
 ## Validator testing
 + ### HTML
@@ -76,8 +77,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Home Page HTML Validator](screenshots/home-checker.jpg)
 
      - No errors or warnings were found when passing through the official W3C validator.
-
-
     
   #### Rare finds Page
 
@@ -106,6 +105,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator 
     ![CSS](screenshots/css-checker.jpg)
+
+ ---
 
 + ## LightHouse report
 
