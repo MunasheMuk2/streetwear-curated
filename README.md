@@ -240,8 +240,8 @@ In order to make a local copy of this project clone it in your IDE Terminal usin
 
 ### Media
 
-Images sourced from : https://unsplash.com/
-ReadMe responsive mock up from: https://ui.dev/amiresponsive
+- Images sourced from : https://unsplash.com/
+- ReadMe responsive mock up from: https://ui.dev/amiresponsive
 ---
 
 ### Credits
