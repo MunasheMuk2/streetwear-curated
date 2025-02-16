@@ -107,7 +107,9 @@ _Frequent users_
 ---
 + #### Subscribe form / Call to Action Section
 
-    - The call to action is the red subscribe button in the head and footer of every page. Also in the main content on the home page.
+    - The call to action is the red subscribe button in the head and footer of every page. Also in the main content on the home page
+
+    - The subscribe button is red to grab users attention. As a result, this will trigger stronger emotional responses from users that will lead to higher subscription rates 
 
     - The subscribe button leads to the subscribe form for users to sign up for newsletters
 
