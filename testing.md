@@ -46,30 +46,24 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | --- | --- | --- | --- | --- | --- |
 | Navbar | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
-| Rare finds | Click on the "Gallery" link | The user is redirected to the rare finds page | Yes | Yes | - |
+| Rare finds | Click on the "Rare finds" link | The user is redirected to the rare finds page | Yes | Yes | - |
 | Events | Click on the "Events" link | The user is redirected to the contact page | Yes | Yes | - |
 | Footer | | | | | |
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
-| Home page | | | | | |
-| "Subscribe" button in Nav section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
+| Subscribe buttons | | | | | |
+| "Subscribe" button in Nav section (all pages) | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
 | "Subscribe" button in main about us section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
-| "Subscribe" button in footer about us section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
-| Rare finds page | | | | | |
-| "Subscribe" button in Nav section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
-| "Subscribe" button in footer about us section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
-| Events page | | | | | |
-| "Subscribe" button in Nav section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
-| "Subscribe" button in footer about us section | Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
+| "Subscribe" button in footer section (all pages)| Click on the "Subscribe" button | The user is redirected to the subscribe page | Yes | Yes | - |
 | Subscribe page | | | | | |
-| Full name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Main interest | Click on the dropdown selection | The dropdown provides option | Yes | Yes | These options are not required as the user can choose not to advise their main interest|
+| Full name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter their full name, a fill in this field message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. The error messgae also appears if the email is not valid email |
+| Main interest | Click on the dropdown selection | The dropdown provides options | Yes | Yes | These options are not required as the user can choose not to advise their main interests|
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Response page | | | | | |
-| Response message | response text displayed with a return to home button | Once user clicks return to home button they are redirected to the home page | Yes | Yes | - |
-| "Return to home" button | Click on the "Return to home" button | The user is redirected to the home page | Yes | Yes | - |
+| Response message | click on return to home button | Once user clicks "return to home" button they are redirected to the home page | Yes | Yes | - |
+
 
 
 ## Validator testing
