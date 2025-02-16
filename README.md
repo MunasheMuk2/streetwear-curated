@@ -68,7 +68,7 @@ _Frequent users_
 
     - Features: 
 
-        * Company introductory information and showcase
+        * Company introductory information and streetwear showcase
         * Streetwear imagery of exclusive items to draw users 
         * Three call to actions (subscribe button) on the nav, in the main section and in the footer
 
@@ -96,6 +96,8 @@ _Frequent users_
     - Showcases upcoming events with imagery on the left hand side and descriptions on the right 
 
     - The events descriptions highlight what to expect from the events and also include the location details and when the events are occuring
+
+    - There is also a main highlighted event in the middle to show users it is a new event on the scene 
 
     - Mainly for frequent users who will subsequently mention streetwear curated as their streewear information hub at the events 
 
