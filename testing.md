@@ -109,7 +109,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + ## LightHouse report
 
-    - Lighthouse in devtools confirmed the site has optimal perfoamce, accessible and colors and fonts chosen are readable.
+    - Lighthouse in devtools confirmed the site has optimal perfoamce, the home page is also .
     
   ### Home page
 
