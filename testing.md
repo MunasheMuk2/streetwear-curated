@@ -1,6 +1,7 @@
 
 # TESTING
 
+(screenshots/site-gif.GIF)
 
 ## Compatibility
 
