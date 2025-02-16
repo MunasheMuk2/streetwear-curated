@@ -81,22 +81,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Validator testing
 + ### HTML
   #### Home Page
-    - No errors or warnings were found when passing through the official W3C validator.
-
-
+   
     ![Home Page HTML Validator](screenshots/home-checker.jpg)
 
      - No errors or warnings were found when passing through the official W3C validator.
 
- ---
-    
+
   #### Rare finds Page
 
     ![Rare finds Page HTML Validator](screenshots/rare-checker.jpg)
 
     - No errors or warnings were found when passing through the official W3C validator.
-
----
 
   #### Events Page
 
@@ -104,7 +99,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
       - No errors or warnings were found when passing through the official W3C validator.
 
----
 
   #### Subscribe Page
 
@@ -112,14 +106,12 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
        - No errors or warnings were found when passing through the official W3C validator.
 
----
-
-      #### Response Page
+  #### Response Page
 
     ![Response Page HTML Validator](screenshots/response-checker.jpg)
 
      - No errors or warnings were found when passing through the official W3C validator.
----
+
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator 
