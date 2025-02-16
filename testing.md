@@ -11,8 +11,10 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Chrome](screenshots/chrome-test.jpg)
 
+     - Internet explorer:
+
     ![Internet explorer](screenshots/internet-explorer-test.jpg)
-    
+
 ---
 
 ## Responsiveness
@@ -26,17 +28,25 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![ Mobile site gif](screenshots/site-gif.GIF)
 
+    ---
+
     - Small devices:
 
     ![Small devices](screenshots/small-devices.jpg)
+
+    ---
 
     - Medium devices:
 
     ![Medium devices](screenshots/medium-devices.jpg)
 
+    ---
+
     -  large devices:
 
     ![large devices](screenshots/large-devices.jpg)
+
+    ---
     
      -  Extra large devices:
 
@@ -77,6 +87,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Home Page HTML Validator](screenshots/home-checker.jpg)
 
      - No errors or warnings were found when passing through the official W3C validator.
+
+     ---
     
   #### Rare finds Page
 
@@ -84,11 +96,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - No errors or warnings were found when passing through the official W3C validator.
 
+    ---
+
   #### Events Page
 
     ![Events Page HTML Validator](screenshots/events-checker.jpg)
 
       - No errors or warnings were found when passing through the official W3C validator.
+
+      ---
 
   #### Subscribe Page
 
@@ -96,11 +112,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
        - No errors or warnings were found when passing through the official W3C validator.
 
+       ---
+
       #### Response Page
 
     ![Response Page HTML Validator](screenshots/response-checker.jpg)
 
      - No errors or warnings were found when passing through the official W3C validator.
+
+     ---
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator 
