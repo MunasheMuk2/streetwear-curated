@@ -1,8 +1,6 @@
 
 # TESTING
 
-![Site gif](screenshots/site-gif.GIF)
-
 ## Compatibility
 
 In order to confirm the correct functionality, responsiveness, and appearance:
@@ -24,6 +22,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - Extra small devices:
 
     ![XS devices](screenshots/xs-devices.jpg)
+
+    ![ Mobile site gif](screenshots/site-gif.GIF)
 
     - Small devices:
 
