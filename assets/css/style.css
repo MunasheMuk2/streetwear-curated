@@ -703,8 +703,9 @@ input, select{
 
 
   .main-paragraph {
-    margin-left: 850px;
+    margin-left: 750px;
     font-size:30px;
+    width:40%;
   }
 
   .jordans {
