@@ -141,7 +141,7 @@ main {
   max-width:100%;
   margin: 0 auto;
   text-align: center;
-  margin-left: 0.8em; !important;
+  margin-left: 0.8em;
 }
 
 /*  subscribe button  */
@@ -169,7 +169,6 @@ main {
   font-size: 13px;
   text-align: center;
   margin:auto;
-  margin
 }
 
 .sub-top {
