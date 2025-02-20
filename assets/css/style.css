@@ -186,7 +186,7 @@ section {
   margin-left: 1rem;
   margin-right: 1rem;
   width: 80%;
-  
+
 }
  
 .first-col {
@@ -371,7 +371,6 @@ input, select{
     min-width: 100%;
   }
 
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -455,11 +454,9 @@ input, select{
     /* width 50% wraps the text */
   }
 
- 
  .second-header {
   font-size:25px;
  }
-
 
   .second-section {
     display: flex !important;
@@ -594,11 +591,11 @@ input, select{
 
   .first-section {
     margin-right: 7rem;
+  
   }
 
   .second-header {
-    padding-top: 4rem;
-    font-size: 35px;
+   font-size: 35px;
   }
 
   .main-header {
